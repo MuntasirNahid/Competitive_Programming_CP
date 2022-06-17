@@ -8,6 +8,10 @@ and we get the optimal solution of the complete problem.
 If a Greedy Algorithm can solve a problem, then it generally becomes the best method to solve that 
 problem as the Greedy algorithms are in general more efficient than other techniques like Dynamic Programming.
 
+Assume that you have an objective function that needs to be optimized (either maximized or minimized) at a given point.
+A Greedy algorithm makes greedy choices at each step to ensure that the objective function is optimized. 
+The Greedy algorithm has only one shot to compute the optimal solution so that it never goes back and reverses the decision.
+
 
 Following are some standard algorithms that are Greedy algorithms. 
 1) Kruskal’s Minimum Spanning Tree (MST): In Kruskal’s algorithm, we create a MST by picking edges one by one. The Greedy Choice is to pick the smallest weight edge that doesn’t cause a cycle in the MST constructed so far. 
