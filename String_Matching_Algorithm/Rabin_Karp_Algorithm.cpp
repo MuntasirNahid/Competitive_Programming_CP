@@ -8,7 +8,7 @@ that prints all occurrences of pat[] in txt[]. You may assume that n > m.
 Hash Value matching between pattern and current substring of the text.
 If hash value matches then it starts comparing char by char
 
-The algorithm exploid the fact that if two hash values are equal than their hash value will be equal
+The algorithm exploid the fact that if two hash values are equal than they will be equal
 
 
 */

@@ -111,3 +111,4 @@ int main()
     KMPSearch(pat, txt);
     return 0;
 }
+//KMP =Best case=O(m);worst case=O(n)

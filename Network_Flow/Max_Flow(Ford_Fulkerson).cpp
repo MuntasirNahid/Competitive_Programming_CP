@@ -14,7 +14,8 @@ residual capacity is positive
 */
 
 /*
-Ford FUlkerson uses DFS algortihm,Edmonds karp is same shit as Ford Fulkerson. But it uses BFS instead of BFS.. So in some special case(Following) it is more efficient than Ford Fulkerson.
+Ford FUlkerson uses DFS algortihm,Edmonds karp is same shit as Ford Fulkerson. But it uses BFS instead of BFS.. So in some special case(Following) it is more
+efficient than Ford Fulkerson.
 
 
 */
@@ -80,7 +81,7 @@ int main()
         cin >> u >> v >> w;
         graph[u][v] = w;
     }
-    cout << "Maximum Flow(Ford_Fulkerson) = " << ford_fulkerson(graph, 0, node - 1) << " unit." << endl; // grsph,source,sink
+    cout << "Maximum Flow(Ford_Fulkerson) = " << ford_fulkerson(graph, 0, node - 1) << " unit." << endl; // graph,source,sink
     return 0;
 }
 

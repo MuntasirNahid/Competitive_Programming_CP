@@ -1,4 +1,6 @@
 /*
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+
 Let T be a rooted tree. The lowest common ancestor between two nodes n1 and n2 is defined as the lowest node in T
 that has both n1 and n2 as descendants(bongshodhor)
 (where we allow a node to be a descendant of itself).
@@ -71,4 +73,6 @@ LCA(4, 5) = 2
 LCA(4, 6) = 1
 LCA(3, 4) = 1
 LCA(2, 4) = 2
-*
+*/
+//Time Complexity:  The time complexity of the above solution is O(n) as the method does a simple tree traversal in a bottom-up fashion
+

@@ -8,7 +8,7 @@ we use power of two in this case
  m[i][j]=min(m[i][j-1],m[i+??][j-1]);//j= power of two
 =>m[i][j]=min(m[i][j-1].m[i+1<<(j-1)][j-1])
 
-we use this sparse table do solve the problem of range minimum query
+we use this sparse table to solve the problem of range minimum query
 
 
 */
