@@ -81,7 +81,7 @@ int main()
         cin >> u >> v >> w;
         graph[u][v] = w;
     }
-    cout << "Maximum Flow(Ford_Fulkerson) = " << ford_fulkerson(graph, 0, node - 1) << " unit." << endl; // grsph,source,sink
+    cout << "Maximum Flow(Ford_Fulkerson) = " << ford_fulkerson(graph, 0, node - 1) << " unit." << endl; // graph,source,sink
     return 0;
 }
 
