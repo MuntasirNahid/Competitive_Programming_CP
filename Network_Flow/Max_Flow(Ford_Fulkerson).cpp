@@ -14,7 +14,8 @@ residual capacity is positive
 */
 
 /*
-Ford FUlkerson uses DFS algortihm,Edmonds karp is same shit as Ford Fulkerson. But it uses BFS instead of BFS.. So in some special case(Following) it is more efficient than Ford Fulkerson.
+Ford FUlkerson uses DFS algortihm,Edmonds karp is same shit as Ford Fulkerson. But it uses BFS instead of BFS.. So in some special case(Following) it is more
+efficient than Ford Fulkerson.
 
 
 */
