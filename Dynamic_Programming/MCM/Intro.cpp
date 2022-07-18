@@ -32,6 +32,8 @@ general format:solve(int arr[],int i,int j){
     ans=function(temp_ans)//max,min,bla blah
     }
 }
-*/
+
+
+
 
 
