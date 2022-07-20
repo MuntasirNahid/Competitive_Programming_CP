@@ -30,7 +30,7 @@ bool HamiltonCycle(vector<int> &path, int v, int n)
             path.push_back(av);
             if (HamiltonCycle(path, av, n))
             {
-                return true; // if path.size() returns true.then every recursize caller vertex will return true
+                return true; // if path.size() returns true.then every recursive caller vertex will return true
             }
             // if no hamilton cycle found following that adjacent vertex,we will backtrack
             visited[av] = false;
