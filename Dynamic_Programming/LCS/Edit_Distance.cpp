@@ -8,6 +8,8 @@ Given two strings str1 and str2 and below operations that can be
 All of the above operations are of equal cost.
 
 it is basically LCS problem.
+
+below implementation doesnot work for all cases
 */
 
 #include <bits/stdc++.h>
